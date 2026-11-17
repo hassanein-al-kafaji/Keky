@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>KekyNotepad</AssemblyName>
+    <RootNamespace>KekyNotepad</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>Keky</Authors>
+    <Product>Keky Notepad</Product>
+    <Description>A lightweight tabbed code/text editor for Windows.</Description>
+    <RollForward>LatestMajor</RollForward>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <ApplicationIcon>Assets\app.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\app.ico" LogicalName="KekyNotepad.app.ico" />
+  </ItemGroup>
+
+  <!-- scrcpy + adb are bundled: copied next to the exe (build and publish) as .\scrcpy\ -->
+  <ItemGroup>
+    <None Include="Tools\scrcpy\**\*" Link="scrcpy\%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,34 @@
+# Build output
+bin/
+obj/
+publish/
+*.pdb
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+packages/
+
+# Installer output (generate with Installer/KekyNotepad.iss)
+Setup/
+*.exe
+
+# scrcpy / adb binaries (~16 MB): download scrcpy v3.3.4 and extract it into Tools/scrcpy
+# (the licenses in Tools/licenses ARE tracked)
+Tools/scrcpy/
+
+# Local tool settings and scratch files
+.claude/
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini
+.DS_Store
