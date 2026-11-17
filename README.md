@@ -45,7 +45,7 @@
 
 ### التثبيت
 
-1. نزّل `KekyNotepad-Setup.exe` من صفحة [Releases](#).
+1. نزّل [`KekyNotepad-Setup.exe`](https://github.com/hassanein-al-kafaji/Keky/releases/latest/download/KekyNotepad-Setup.exe) مباشرةً، أو من صفحة [Releases](https://github.com/hassanein-al-kafaji/Keky/releases).
 2. شغّله واتبع المعالج. لا حاجة لتثبيت .NET أو scrcpy.
 3. اختياريًا: أضف `adb` و`scrcpy` إلى PATH لاستخدامهما من أي نافذة أوامر.
 
@@ -88,7 +88,7 @@ ISCC Installer\KekyNotepad.iss
 
 ### المساهمة
 
-المساهمات مرحّب بها: افتح [Issue](#) للإبلاغ عن خطأ أو اقتراح ميزة، أو أرسل Pull Request. أي مساهمة تُرسلها تُرخَّص بموجب Apache 2.0 أيضًا.
+المساهمات مرحّب بها: افتح [Issue](https://github.com/hassanein-al-kafaji/Keky/issues) للإبلاغ عن خطأ أو اقتراح ميزة، أو أرسل Pull Request. أي مساهمة تُرسلها تُرخَّص بموجب Apache 2.0 أيضًا.
 
 يستخدم البرنامج [scrcpy](https://github.com/Genymobile/scrcpy) وadb، وكلاهما بترخيص Apache 2.0. نصوص تراخيصهما في `Tools/licenses`.
 
@@ -121,7 +121,7 @@ ISCC Installer\KekyNotepad.iss
 
 ### Install
 
-1. Download `KekyNotepad-Setup.exe` from [Releases](#).
+1. Download [`KekyNotepad-Setup.exe`](https://github.com/hassanein-al-kafaji/Keky/releases/latest/download/KekyNotepad-Setup.exe) directly, or from the [Releases](https://github.com/hassanein-al-kafaji/Keky/releases) page.
 2. Run it and follow the wizard. No .NET or scrcpy installation needed.
 3. Optionally add `adb` and `scrcpy` to your PATH to use them from any terminal.
 
@@ -164,6 +164,6 @@ The source code is open: you may use, modify and distribute Keky Notepad, includ
 
 ### Contributing
 
-Contributions are welcome: open an [issue](#) to report a bug or suggest a feature, or send a pull request. Any contribution you submit is licensed under Apache 2.0 as well.
+Contributions are welcome: open an [issue](https://github.com/hassanein-al-kafaji/Keky/issues) to report a bug or suggest a feature, or send a pull request. Any contribution you submit is licensed under Apache 2.0 as well.
 
 It uses [scrcpy](https://github.com/Genymobile/scrcpy) and adb, both under the Apache License 2.0. Their license texts are in `Tools/licenses`.
